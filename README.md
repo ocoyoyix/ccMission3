@@ -68,8 +68,12 @@ This system is meaningful to me because I was able to play with two concepts I a
 --
 This was a really fun project but I did struggle with the logic of having static images and one dynamic canvas. Because of the canvas, thhis project has the most unique event listeners that I have ever used as I usually just listen to button clicks for submiting forms or searches. It would have been really easy for me to have a matrix where the canvas background and the canvas foreground loop infinitely as the once either is reached as a current state but for the user experience in the "next state" button I had to do include extra logic. The next steps for me would probably be finding a way to include a wider variety of data, in this case images, to avoid some of the repetition that I see when using my webapp.
 
+[Back To The Top](#limiting-layers)
+
 ---
 
 ## Sources
 
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+
+[Back To The Top](#limiting-layers)
