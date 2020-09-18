@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #282c34;
+}
+/* Parent element which holds the images, will be relative and flex for centering */
+.image-cont {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Centering the images in the image container */
+.image-1 {
+  position: absolute;
+  top: 0;
+  left: 1;
+  max-width: 640px;
+}
+
+/*Centering the image int the image container*/
+.image-2 {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 1;
+  width: 20%;
+  max-width: 130px;
+}
+
+/* Used for draw message */
+h3 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+/* Styling for Button */
+.next-state {
+  z-index: 101;
+  position: absolute;
+  bottom: 0;
+  left: 1;
+  border-radius: 5px;
+  color: #fff;
+  height: auto;
+  cursor: pointer;
+  padding: 9px 35px;
+  margin: 5px;
+  background-color: #f52248;
+  border: 1px solid #ef4565;
+}
+
+.next-state:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.next-state:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(239, 69, 101, 0.5),
+    0 0 0 1.5px rgba(239, 69, 101, 0.5);
+}
